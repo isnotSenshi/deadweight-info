@@ -126,6 +126,26 @@
     letter-spacing: .04em; font-size: 1.15rem; color: #fff;
   }
   .download .dl-text small { color: rgba(255,255,255,.85); font-size: .78rem; letter-spacing: .03em; }
+  .beta-note {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 6px;
+    color: var(--text-muted);
+    font-size: .82rem;
+  }
+  .beta-note .tag {
+    flex: none;
+    background: rgba(255,68,56,.12);
+    color: var(--accent);
+    border: 1px solid rgba(255,68,56,.35);
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: .7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
   .foot {
     margin-top: 40px;
     padding-top: 20px;
@@ -155,6 +175,7 @@
       <small>APK · Android</small>
     </span>
   </a>
+  <p class="beta-note"><span class="tag">Beta</span> En beta-testing · Próximamente en Google Play y App Store.</p>
 
   <h2>Qué datos maneja la app</h2>
   <ul>
